@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 		// MACアドレスを取得
 		apInfo[3] = String.format("MAC Address : %s", info.getMacAddress());
 
-		// BSSIDを取得
+		// BSSIDを取得 ※Wi-FiのMacアドレス
 		apInfo[4] = String.format("BSSID : %s", info.getBSSID());
 
 		// ネットワークID取得
